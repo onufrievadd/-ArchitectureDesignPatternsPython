@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block title %}Цветы всего мира{% endblock %}
+{% block content %}
+<h1>Цветы</h1>
+{% for product in products %}
+{{ product }} <br/>
+{% endfor %}
+{% endblock %}
