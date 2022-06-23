@@ -1,0 +1,56 @@
+<div class="content">
+    <h1>Программы обучения</h1>
+    <p>Курсы в течение года.</p>
+    <p>Расписание действует на: {{data}} </p>
+    <table>
+        <tr class="head">
+            <th></th>
+            <th>Москва</th>
+            <th>Санкт-Петербург</th>
+            <th>Екатеринбург</th>
+        </tr>
+       <tr>
+            <th>Горные лыжи</th>
+            <td>Сб, 11 января 2022<br />17:00 - 20:00</td>
+            <td>Сб, 23 января 2022<br />17:00 - 20:00</td>
+            <td>Сб, 2 февраля 2022<br />17:00 - 20:00</td>
+        </tr>
+        <tr class="even">
+            <th>Сноуборд</th>
+            <td>Вс, 12 января 2022<br />17:00 - 20:00</td>
+            <td>Вс, 24 января 2022<br />17:00 - 20:00</td>
+            <td>Вс, 3 февраля 2022<br />17:00 - 20:00</td>
+        </tr>
+        <tr>
+            <th>Сноублейды</th>
+            <td>Сб, 11 января 2022<br />13:00 - 16:00</td>
+            <td>Сб, 23 января 2022<br />13:00 - 16:00</td>
+            <td>Сб, 2 февраля 2022<br />13:00 - 16:00</td>
+        </tr>
+        <tr class="even">
+            <th>Снежный самокат</th>
+            <td>Вс, 12 января 2022<br />13:00 - 16:00</td>
+            <td>Вс, 24 января 2022<br />13:00 - 16:00</td>
+            <td>Вс, 3 февраля 2022<br />13:00 - 16:00</td>
+        </tr>
+    </table>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Зарегистрируйтесь</legend>
+            <p><label class="title" for="name">Ваше имя:</label>
+                 <input type="text" name="name" id="name"><br />
+                 <label class="title" for="email">Ваш email:</label>
+                 <input type="text" name="email" id="email"></p>
+            <p><label for="location" class="title">Ближайший центр:</label>
+                 <select name="location" id="location">
+                     <option value="msk">Москва</option>
+                     <option value="spb">Санкт-Петербург</option>
+                     <option value="ekb">Екатеринбург</option>
+                 </select></p>
+            <span class="title">Являетесь участником?</span>
+            <label><input type="radio" name="member" value="yes" /> Да</label>
+            <label><input type="radio" name="member" value="no" /> Нет</label></p>
+        </fieldset>
+    <div class="submit"><input type="submit" value="Регистрация" /></div>
+    </form>
+</div>
